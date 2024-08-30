@@ -1,18 +1,9 @@
-## Getting Started
+# Controle de Fluxo - Desafio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um desafio do módulo de Controle de Fluxo da DIO, onde você deverá codificar o seguinte cenário.
 
-## Folder Structure
+## Descrição do Desafio
 
-The workspace contains two folders by default, where:
+O sistema deverá receber dois parâmetros via terminal que representarão dois números inteiros. Com estes dois números, você deverá obter a quantidade de interações (usando um loop `for`) e realizar a impressão no console (`System.out.print`) dos números incrementados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Se o primeiro parâmetro for **MAIOR** que o segundo parâmetro, você deverá lançar uma exceção customizada chamada `ParametrosInvalidosException` com a mensagem: "O segundo parâmetro deve ser maior que o primeiro".
